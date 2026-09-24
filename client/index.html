@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisas de Campo - Universidade de Jaguariuna</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>Pesquisas de Campo</h1>
+        </center>
+    </header>
+    <main>
+        <section>
+            <center>
+                <form action="http://localhost:3000" method="post">
+            </center><br>
+            <center><input type="text" name="sistema" placeholder="O sistema da pesquisa" required></center><br>
+            <center><input type="text" name="tipo" placeholder="O tipo de ambiente da pesquisa" required></center><br>
+            <center><input type="text" name="finalidade" placeholder="A finalidade da pesquisa" required></center><br>
+            <center><input type="text" name="tecnologia" placeholder="As tecnologias utilizadas na pesquisa" required></center><br>
+            <center><input type="text" name="nivel_risco" placeholder="O nivel de risco da pesquisa" required></center><br>
+            <center><input type="text" name="possui_revisao_humana" placeholder="Possui revisão humana? (true/false)"required></center><br>
+            <center><input type="submit" value="Enviar"></center><br>
+            </form>
+        </section>
+        <script>
+            fetch("http://localhost:3000")
+                .then(resp => resp.json())
+        </script>
+    </main>
+</body>
+
+</html>
