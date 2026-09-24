@@ -35,8 +35,22 @@ npm run dev
 * 3 Teste as rotas com a extensão Thunder Client do VsCode
 * 4 Abra o arquivo client/index.html com a extensão Live Server do VsCode
 # Print dos testes e exemplo de requisições
+### Listar
+![Listar](print/Listar.png)
+### Listar por ID
+![ListarID](print/ListarId.png)
+### Listar por Nível
+![ListarNivel](print/ListarNivel.png)
+### Listar por Tipo
+![ListarTipo](print/ListarTipo.png)
+### Atualizar
+![Atualizar](print/Atualizar.png)
+### Cadastrar
+![Cadastrar](print/Cadastrar.png)
+### Excluir
+![Delete](print/Excluir.png)
+# Cliente
 ![html](print/html.png)
-#cliente
-![sucesso](print/sucesso.png)
-* Resposta
+### Resposta
+![sucesso](print/Sucesso.png)
   
